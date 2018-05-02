@@ -7,7 +7,8 @@ ENV JOLOKIA_VERSION="1.3.6" \
     PROMETHEUS_JMX_EXPORTER_VERSION="0.10" \
     PATH="/usr/local/s2i:$PATH" \
     AB_JOLOKIA_PASSWORD_RANDOM="true" \
-    AB_JOLOKIA_AUTH_OPENSHIFT="true"
+    AB_JOLOKIA_AUTH_OPENSHIFT="true" \
+    MAVEN_ARGS="install karaf:assembly karaf:archive -DskipTests -e"
 
 # Expose jolokia port
 EXPOSE 8778
