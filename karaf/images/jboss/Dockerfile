@@ -11,6 +11,8 @@ ENV JOLOKIA_VERSION="1.3.6" \
 
 # Expose jolokia port
 EXPOSE 8778
+EXPOSE 8181 
+EXPOSE 8101
 
 LABEL io.fabric8.s2i.version.maven="3.3.3" \
       io.fabric8.s2i.version.jolokia="1.3.6" \
