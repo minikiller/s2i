@@ -34,7 +34,7 @@
             <repositories>
                 <repository>
                     <id>remote-nexus</id>
-                    <url>http://nexus:8081/nexus/content/groups/public/</url>
+                    <url>http://nexus.apps.bogon.com/nexus/content/groups/public/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -44,7 +44,7 @@
                 </repository>
                 <repository>
                     <id>snapshot-nexus</id>
-                    <url>http://nexus:8081/nexus/content/repositories/snapshots/</url>
+                    <url>http://nexus.apps.bogon.com/nexus/content/repositories/snapshots/</url>
                     <releases>
                         <enabled>false</enabled>
                     </releases>
